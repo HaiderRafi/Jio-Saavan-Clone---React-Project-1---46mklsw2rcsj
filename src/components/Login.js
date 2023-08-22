@@ -24,6 +24,7 @@ const Login = () => {
   let bodyContent = JSON.stringify({
     email: email,
     password: password,
+    appType: "music",
   });
 
   // let reqOptions = {

@@ -12,7 +12,7 @@ let Header = () => {
     dispatch(searchText(text));
   }
 
-  //for userName display on Logout Button
+  //for userName display on Logout Button subscribing to the store
   let isUserLogin = useSelector((store) => store.login.islogin);
   // console.log(isUserLogin.data.name);
   let userName=isUserLogin.data.name

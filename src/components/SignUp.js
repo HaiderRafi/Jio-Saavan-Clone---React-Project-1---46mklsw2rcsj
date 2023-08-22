@@ -21,6 +21,7 @@ let SignUp = () => {
     name: name,
     email: email,
     password: password,
+    appType: "music",
   });
 
   async function apiCall() {
