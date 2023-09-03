@@ -85,7 +85,7 @@ let SongContainer = () => {
     <>
     
       <div className="flex">
-        <div className="w-1/2">
+        <div className="w-1/2 hidden md:block ">
         <SideBar/>
         </div>
       
